@@ -37,7 +37,7 @@ We compare the model's next-token probability distribution and layer-by-layer pr
 ## 🚀 Quickstart
 
 ```bash
-git clone https://github.com
+git clone https://github.com/fahdev789/ai-neuroscience-bypass-circuit
 cd residual-traffic-circuits
 pip install -r requirements.txt
 python src/run_ablation.py
