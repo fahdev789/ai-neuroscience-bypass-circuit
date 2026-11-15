@@ -3,7 +3,11 @@
 An **AI Neuroscience (Mechanistic Interpretability)** experiment exploring how transformer language models track grammar, route information through the residual stream, and preserve directional intent even when front-line grammatical tokens are removed.
 
  ## Context-dependent prediction
-**Hypothesis:** The prediction of `Mary` is not caused by `to` alone. It emerges from the interaction between `to` and the preceding context.
+ > **"The prediction of `Mary` is not caused by `to` alone. It emerges from the compositional interaction between `to` and the preceding context (`John gave a bag`)."**
+
+### Why this matters
+
+* **`to` Provides Syntactic Amplification:** On its own, `'to'` frequently precedes verbs (e.g., *"to run"*). Only when `'to'` interacts with the upstream ditransitive state does it suppress clause boundaries (`and`, `.`) and amplify `Mary` from **9.4%** $\rightarrow$ **18.7%**.
 
 ---
 
