@@ -2,6 +2,11 @@
 
 An **AI Neuroscience (Mechanistic Interpretability)** experiment exploring how transformer language models track grammar, route information through the residual stream, and preserve directional intent even when front-line grammatical tokens are removed.
 
+ ## Context-dependent prediction
+**Hypothesis:** The prediction of `Mary` is not caused by `to` alone. It emerges from the interaction between `to` and the preceding context.
+
+---
+
 ## 🧠 The Core Intuition: The Traffic Intersection Model
 Think of a transformer's **Residual Stream** as a multi-lane road stopped at a red light:
 * **Content Tokens (`John`, `gave`, `bag`) = Cars behind the line:** They carry heavy semantic features and already have their "turn signals" on (e.g., `gave` activates a *ditransitive verb frame* expecting a recipient).
