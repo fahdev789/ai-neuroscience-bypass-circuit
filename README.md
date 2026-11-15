@@ -42,3 +42,5 @@ cd residual-traffic-circuits
 pip install -r requirements.txt
 python src/run_ablation.py
 ```
+
+_You can run this experiment straight away in `Google Colab` without thinking of dependencies or just a quick look on `numpy_experiment.py` a high level over view of the model behavior_
