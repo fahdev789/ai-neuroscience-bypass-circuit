@@ -48,3 +48,12 @@ python src/run_ablation.py
 ```
 
 _You can run this experiment straight away in `Google Colab` without thinking of dependencies or just a quick look on `numpy_experiment.py` a high level over view of the model behavior_
+
+--- 
+
+## References
+
+- Neel Nanda et al., [TransformerLens](https://github.com/TransformerLensOrg/TransformerLens)
+- nostalgebraist, [interpreting GPT: the logit lens](https://www.lesswrong.com/posts/AcKRB8wDpdaN6v6ru/interpreting-gpt-the-logit-lens)
+- Meng et al., [Locating and Editing Factual Associations in GPT](https://arxiv.org/abs/2202.05262) — causal tracing / activation patching
+
